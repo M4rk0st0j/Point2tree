@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.2.1-cudnn8-runtime-ubuntu20.04
+FROM nvidia/cuda:11.2.1-cudnn8-runtime-ubuntu22.04
 
 RUN ln -fs /usr/share/zoneinfo/Europe/Warsaw /etc/localtime
 RUN apt-get update && apt-get install -y --no-install-recommends \
